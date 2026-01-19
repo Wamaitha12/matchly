@@ -21,24 +21,26 @@ export default function Home() {
       </p>
 
       {/* CTA buttons */}
-     <div className="fle1x flex-col sm:flex-row gap-6 items-center">
-        <a
-          href="/creator/onboarding"
-          className="px-12 py-4 bg-indigo-400 text-neutral-900 rounded-lg font-medium hover:opacity-90 transition"
-        >
-          I’m a Creator
-        </a>
+    <div className="flex flex-col sm:flex-row gap-8 items-center justify-center">
+  <a
+  href="/creator/onboarding"
+  className="glow-btn px-12 py-4 bg-gradient-to-r from-indigo-500 via-indigo-600 to-violet-600 text-white rounded-full font-semibold shadow-lg hover:from-indigo-600 hover:via-indigo-700 hover:to-violet-700 transform transition-all duration-200 hover:-translate-y-0.5 active:scale-95 focus:outline-none focus:ring-4 focus:ring-indigo-400/30"
+>
+  I’m a Creator
+</a>
 
-        <a
-          href="/brand/dashboard"
-          className="px-12 py-4 bg-neutral-800 border border-neutral-600 text-neutral-100 rounded-lg font-medium hover:bg-neutral-700 transition"
-        >
-          I’m a Brand
-        </a>
-      </div>
+<a
+  href="/brand/dashboard"
+  className="glow-btn px-12 py-4 bg-gradient-to-r from-indigo-500 via-indigo-600 to-violet-600 text-white rounded-full font-semibold shadow-lg hover:from-indigo-600 hover:via-indigo-700 hover:to-violet-700 transform transition-all duration-200 hover:-translate-y-0.5 active:scale-95 focus:outline-none focus:ring-4 focus:ring-indigo-400/30"
+>
+  I’m a Brand
+</a>
+
+</div>
+
 
       {/* Footer hint */}
-      <p className="mt-12 text-xs text-neutral-500 tracking-wide">
+      <p className="mt-16 text-xs text-neutral-500 tracking-wide">
         Built for modern creator collaborations
       </p>
     </main>
